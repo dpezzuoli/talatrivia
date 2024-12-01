@@ -59,11 +59,6 @@ $ docker compose up --build
 # Run endpoint para cargar la data inicial
 $ http://localhost:3000/api/seed
 
-# o
-# Run comando(comando que carga la data inicial)
-$ npm run seed
-
-- carga usuarios, preguntas, respuestas, trivias, asigna usuarios y preguntas a trivia
 ```
 
 ## Run Endpoints
