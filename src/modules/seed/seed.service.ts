@@ -21,70 +21,56 @@ export const USERS_LIST = [
 
 export const QUESTIONS_LIST = [
   {
-    title: "question n1",
+    title: "¿En qué situación puede usted hacer sonar la bocina de su vehículo?",
     difficulty: "easy",
     answers: [{
-      title: "answers n1",
-      description: "answers n1",
-      isCorrect: false,
+      title: "Para prevenir la ocurrencia de un accidente",
+      isCorrect: true,
       option: 'a'
     },
     {
-      title: "answers n2",
-      description: "answers n2",
+      title: "Para llamar la atención de un amigo",
       isCorrect: false,
       option: 'b'
     },
     {
-      title: "answers n3",
-      description: "answers n3",
-      isCorrect: true,
+      title: "Para apurar a un conductor que va mas lento",
+      isCorrect: false,
       option: 'c'
     }
     ]
   },
   {
-    title: "question n2",
+    title: "La distancia de frenado creace con el cuadrado con el aumento de la velocidad",
     difficulty: "medium",
     answers: [{
-      title: "answers n1",
-      description: "answers n1",
-      isCorrect: false,
+      title: "Verdadero",
+      isCorrect: true,
       option: 'a'
     },
     {
-      title: "answers n2",
-      description: "answers n2",
-      isCorrect: true,
-      option: 'b'
-    },
-    {
-      title: "answers n3",
-      description: "answers n3",
+      title: "Falso",
       isCorrect: false,
-      option: 'c'
+      option: 'b'
     }
     ]
   },
   {
-    title: "question n3",
+    title: "Usted está a punto de conducir, pero se siente enfermo. Usted debería...",
     difficulty: "hard",
     answers: [{
-      title: "answers n1",
-      description: "answers n1",
+      title: "Acortar el viaje si puede",
       isCorrect: false,
       option: 'a'
     },
     {
-      title: "answers n2",
-      description: "answers n2",
-      isCorrect: true,
+      title: "Tomar una medicina antes de conducir",
+      isCorrect: false,
       option: 'b'
     },
     {
-      title: "answers n3",
-      description: "answers n3",
-      isCorrect: false,
+      title: "No conducir",
+      isCorrect: true,
       option: 'c'
     }
     ]
